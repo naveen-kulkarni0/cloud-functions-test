@@ -1,0 +1,13 @@
+.bash_history
+.bash_logout
+.bashrc
+.config/
+.docker/
+.index.js.swp
+.npm/
+.profile
+.theia/
+.viminfo
+README-cloudshell.txt
+node_modules/
+package-lock.json
