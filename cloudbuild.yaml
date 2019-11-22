@@ -3,5 +3,5 @@ steps:
   args: ['install']
   dir: 'functions/autodeploy'
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'test', 'trigger-http', '--runtime', 'nodejs10', '--entry-point', 'helloWorld']
+  args: ['functions', 'deploy', 'test', 'http', '--runtime', 'nodejs10', '--entry-point', 'helloWorld']
   dir: 'functions/autodeploy'
